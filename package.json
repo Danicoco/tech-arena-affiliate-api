@@ -1,7 +1,7 @@
 {
-  "name": "luine",
+  "name": "tech-arena",
   "version": "1.0.0",
-  "description": "LUINE API Server",
+  "description": "Tech Arena API Server",
   "main": "server.js",
   "repository": "",
   "homepage": "",
