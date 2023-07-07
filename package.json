@@ -19,6 +19,7 @@
     "start": "node -r dotenv/config build/app.js",
     "deploy": "yarn build && yarn start",
     "lint": "eslint --ext .ts --ignore-path .gitignore .",
+    "pm2": "pm2 start npm --name \"AFF_SERVER\" -- start",
     "build": "tsc -p .",
     "prepare": "husky install"
   },
